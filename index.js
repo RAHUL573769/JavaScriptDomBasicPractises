@@ -54,3 +54,6 @@ for(const section of sectionList){
     section.style.margin="10px";
     section.style.backgroundColor="lightblue";
 }
+
+const mealsList=document.getElementById("meals");
+mealsList.classList.add("newclass");
